@@ -15,6 +15,8 @@ GLvoid Display(GLvoid)
 	drawCoord();
 
 	drawFrame();
+
+	drawBlock();
 	
 	//화면에 출력하기
 	glutSwapBuffers();
@@ -33,6 +35,8 @@ void InitBuffer(void)
 	InitCoordBuffer();
 
 	InitFrameBuffer();
+
+	InitBlockBuffer();
 }
 
 //키보드 입력 콜백함수
