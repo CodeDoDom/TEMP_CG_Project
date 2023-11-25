@@ -35,6 +35,3 @@ void drawCoord(void);
 
 void InitFrameBuffer(void);
 void drawFrame(void);
-
-void InitBlockBuffer(void);
-void drawBlock(void);
